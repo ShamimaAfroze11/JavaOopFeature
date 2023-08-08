@@ -3,7 +3,5 @@ public class EncapsulationTest {
         Encapsulation encapsulation = new Encapsulation();
         encapsulation.setId(12);
         System.out.println(encapsulation.getId());
-        encapsulation.setName("Shamima");
-        System.out.println(encapsulation.getName());
     }
 }
