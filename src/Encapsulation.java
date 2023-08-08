@@ -1,0 +1,11 @@
+public class Encapsulation {
+
+    int id;
+    String name;
+    public void setId(int id){
+        this.id=id;
+    }
+    public int getId(){
+        return id;
+    }
+}
