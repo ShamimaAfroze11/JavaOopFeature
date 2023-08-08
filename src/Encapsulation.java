@@ -8,4 +8,5 @@ public class Encapsulation {
     public int getId(){
         return id;
     }
+
 }
