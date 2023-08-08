@@ -9,6 +9,7 @@ public class EncapsulationTest {
         System.out.println(encapsulation.getAge());
         encapsulation.setProduct("Foundation");
         System.out.println(encapsulation.getProduct());
-
+        encapsulation.setNumber(3.567F);
+        System.out.println(encapsulation.getNumber());
     }
 }
