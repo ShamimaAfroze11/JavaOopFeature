@@ -7,8 +7,8 @@ public class EncapsulationTest {
         System.out.println(encapsulation.getName());
         encapsulation.setAge(25);
         System.out.println(encapsulation.getAge());
-
-
+        encapsulation.setProduct("Foundation");
+        System.out.println(encapsulation.getProduct());
 
     }
 }

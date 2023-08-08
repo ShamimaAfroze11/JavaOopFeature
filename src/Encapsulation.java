@@ -3,6 +3,7 @@ public class Encapsulation {
     int id;
     int age;
     String name;
+    String product;
     public void setId(int id){
         this.id=id;
     }
@@ -20,5 +21,11 @@ public class Encapsulation {
     }
     public int getAge(){
         return age;
+    }
+    public void setProduct(String product){
+        this.product= product;
+    }
+    public String getProduct(){
+        return product;
     }
 }
