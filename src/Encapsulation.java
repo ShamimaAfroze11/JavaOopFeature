@@ -4,7 +4,7 @@ public class Encapsulation {
     int age;
     String name;
     String product;
-    float number;
+    double number;
     public void setId(int id){
         this.id=id;
     }
@@ -29,10 +29,10 @@ public class Encapsulation {
     public String getProduct(){
         return product;
     }
-    public void setNumber(float number){
+    public void setNumber(double number){
         this.number= number;
     }
-    public float getNumber(){
+    public double getNumber(){
         return number;
     }
 }
